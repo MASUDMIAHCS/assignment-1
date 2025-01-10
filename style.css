@@ -1,0 +1,47 @@
+.fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.header1{
+    display: flex;
+    justify-content: center;
+}
+.main_parrent{
+    width: 1280px;
+    background-color: rgb(198, 228, 214);
+    border-radius: 24px;
+    border-radius: 17.04px;
+    display:flex;
+    gap:64px;
+}
+.parrent1{
+    width: 622px;
+    height: 326px; 
+    margin:80px 0px 80px 100px; 
+}
+.parrent2{
+    width: 474.03px;
+    height: 400px;
+    margin:80px 100px 80px 0px;
+}
+.child1{
+    color: rgba(14, 14, 14, 0.5);
+    font-weight: 500px;
+    font-size: 24px;
+    margin-bottom: 16px; 
+}
+.child2{
+    color:rgb(14, 14, 14);
+    font-weight: 700px;
+    font-size: 56px;
+    margin-bottom: 24px;
+}
+.child3{
+    color:rgb(255, 255, 255);
+    font-weight: 600px;
+    font-size: 18px;
+    background-color: rgb(0, 106, 80);
+    border-radius: 8px;
+    padding: 17px 34px; 
+}
