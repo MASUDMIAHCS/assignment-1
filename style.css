@@ -149,11 +149,13 @@
     font-size: 16px;
 }
 .card_parrent{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255); 
     border-radius: 24px;
     display: flex;
     padding: 48px;
     gap:32px;
+    border:2px solid black; 
+    margin-bottom: 15px;
 }
 .another1{
     width: 408px;
@@ -161,6 +163,7 @@
     background-image: url('B11A1--assignment-1/assets/satelite.png');
     border-radius: 24px;
     background-color: aliceblue;
+    border:black solid 3px;
 }
 .another2{
     width: 744px;
@@ -190,6 +193,68 @@
     padding: 13px 26px;
     border-radius: 8px;
     margin-top: 32px;
+}
+.donate{
+    color:rgb(14, 14, 14);
+    font-weight: 700px;
+    font-size: 40px;
+}
+.text{
+    color:rgba(14, 14, 14, 0.7);
+    font-weight: 400px;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.same_div{
+    color:rgba(14, 14, 14, 0.8);
+    font-weight: 700px;
+    font-size: 40px;
+    padding: 10px 30px;
+}
+.exceptional{
+    /* background-color:rgba(14, 14, 14, 0.15); */ 
+    background-color: gray;
+}
+.donate_button{
+    color: rgb(255, 255, 255);
+    font-weight: 600px;
+    font-size: 18px;
+    background-color: rgb(0, 106, 80);
+    padding: 17px 34px;
+    border-radius: 8px;
+    width: 160px;
+    height: 56px; 
+    margin-top: 32px;
+}
+.text-fill{
+    color:rgba(14, 14, 14, 0.3);
+    font-weight: 400px;
+    font-size: 20px;
+    padding:20px 40px;
+    width: 1032px;
+    text-align: center;
+    margin-top: 32px;
+    border-radius: 8px;
+}
+.sec_right_now{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1280px;
+    height: 464px;
+    margin-top: 60px;
+    border: 2px solid gray;
+    background-color: bisque;
+    border-radius: 18px;
+}
+.inside_div{
+    display:flex;
+    width: 1071px;
+    justify-content: space-evenly;
+}
+.inside_div>.same_div{
+    border-radius: 16px;
 }
 
 
