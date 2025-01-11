@@ -212,10 +212,6 @@
     font-size: 40px;
     padding: 10px 30px;
 }
-.exceptional{
-    /* background-color:rgba(14, 14, 14, 0.15); */ 
-    background-color: gray;
-}
 .donate_button{
     color: rgb(255, 255, 255);
     font-weight: 600px;
@@ -264,7 +260,6 @@
     margin-top: 50px;
 }
 .par:hover{
-    background-color: aquamarine;
     cursor: pointer;
 }
 .donate_button:hover{
@@ -279,9 +274,10 @@
     cursor: pointer;
 }
 .card_button:hover{
-    background-color: green;
+    color:aqua;
+    background-color: black;
     cursor: pointer;
-    box-shadow: 5px 5px 3px green;
+    box-shadow: 5px 5px 3px gray;
 }
 .child3:hover{
     color: black;
@@ -293,5 +289,7 @@
     background-color: darkslategrey;
     cursor: pointer;
 }
-
+.text-fill:hover{
+    color:black;
+}
 
