@@ -256,6 +256,42 @@
 .inside_div>.same_div{
     border-radius: 16px;
 }
-
+.par{
+    padding: 50px 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.par:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.donate_button:hover{
+    background-color: chocolate;
+    color: black;
+    outline: 5px solid grey;
+    cursor: pointer;
+}
+.same_div:hover{
+    background-color: gray;
+    box-shadow: 8px 8px 3px gray;
+    cursor: pointer;
+}
+.card_button:hover{
+    background-color: green;
+    cursor: pointer;
+    box-shadow: 5px 5px 3px green;
+}
+.child3:hover{
+    color: black;
+    background-color: coral;
+    cursor: pointer;
+}
+.bu1:hover,.bu2:hover,.bu3:hover{
+    color: black;
+    background-color: darkslategrey;
+    cursor: pointer;
+}
 
 
