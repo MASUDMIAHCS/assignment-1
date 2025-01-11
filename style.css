@@ -105,3 +105,92 @@
     background-color: rgb(255, 194, 57);
     border-radius: 8px;
 }
+.m{
+    width: 1280px;
+    /* height: 256px; */
+    display:flex;
+    flex-direction: column;
+    background-image: url('B11A1--assignment-1/assets/quote-bg.png');
+    background-repeat: no-repeat;
+    padding:48px 24px;
+    border-radius: 16px;
+    margin-top: 32px;
+}
+.quat1{
+    color:rgba(14, 14, 14, 0.8);
+    font-weight: 400px;
+    font-size: 16px;
+    margin: 0px;
+    margin-bottom: 12px;
+}
+.dr{
+    color:rgba(14, 14, 14, 0.8);
+    font-weight: 600px;
+    font-size: 20px;
+    margin: 0px;
+    margin-bottom: 4px;
+
+}
+.ad{
+    color:rgba(14, 14, 14, 0.6);
+    font-weight: 400px;
+    font-size: 16px;
+    margin: 0px;
+}
+.x{
+    color:rgb(14, 14, 14);
+    font-weight: 700px;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.y{
+    color:rgba(14, 14, 14, 0.7);
+    font-weight: 400px;
+    font-size: 16px;
+}
+.card_parrent{
+    background-color: rgb(255, 255, 255);
+    border-radius: 24px;
+    display: flex;
+    padding: 48px;
+    gap:32px;
+}
+.another1{
+    width: 408px;
+    height: 285px;
+    background-image: url('B11A1--assignment-1/assets/satelite.png');
+    border-radius: 24px;
+    background-color: aliceblue;
+}
+.another2{
+    width: 744px;
+    height: 290px;
+    background-color: aliceblue;
+}
+
+.S{
+    color:rgba(14, 14, 14, 0.8);
+    font-weight: 700px;
+    font-size: 32px;
+    margin:0px;
+    margin-bottom: 12px;
+}
+.date,.para1{
+    color:rgba(14, 14, 14, 0.7);
+    font-weight: 400px;
+    font-size: 16px;
+    margin: 0px;
+    margin-top: 12px;
+}
+.card_button{
+    color:rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600px;
+    background-color: rgb(0, 106, 80);
+    padding: 13px 26px;
+    border-radius: 8px;
+    margin-top: 32px;
+}
+
+
+
